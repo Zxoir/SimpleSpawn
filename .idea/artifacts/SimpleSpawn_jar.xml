@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SimpleSpawn:jar">
+    <output-path>$USER_HOME$/Desktop/testserver/plugins</output-path>
+    <root id="archive" name="SimpleSpawn.jar">
+      <element id="module-output" name="SimpleSpawn" />
+    </root>
+  </artifact>
+</component>

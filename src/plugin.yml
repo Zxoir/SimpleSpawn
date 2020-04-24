@@ -1,0 +1,17 @@
+name: SimpleSpawn
+author: Zxoir
+version: 1.0
+api-version: 1.15
+description: SimpleSpawn plugin
+main: me.zxoir.simplespawn.SimpleSpawn
+commands:
+  spawn:
+    description: Spawn
+    usage: /spawn
+  setspawn:
+    description: Set a spawn
+    usage: /setspawn
+permissions:
+  simplespawn.admin:
+    description: Ability to set a spawn
+    default: op

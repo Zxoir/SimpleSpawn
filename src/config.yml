@@ -1,0 +1,19 @@
+# For a list of 1.15.2 sounds please check this link: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+
+# Message sent when a player teleports to spawn, if you want to disable this set it to ""
+Teleport Message: "&9Spawn &8> &7You have teleported to spawn."
+
+# Action bar sent when a player moves while teleporting, if you want to disable this set it to ""
+Cancel Message: "&9Spawn &8> &7Your teleportation has been cancelled"
+
+# Time taken to teleport to spawn, if you want to disable this set it to 0
+Time: 5
+
+# Sound played when a player teleports to spawn, if you want to disable this set it to ""
+Teleport Sound: "ENTITY_PLAYER_LEVELUP"
+
+# Sound played every second while a player is teleporting, if you want to disable this set it to ""
+Teleporting Sound: "BLOCK_NOTE_BLOCK_PLING"
+
+# Action bar sent every second while a player is teleporting
+Actionbar Message: "&9Spawn &8> &7Teleporting in <time> seconds"
