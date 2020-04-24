@@ -1,4 +1,4 @@
-package me.zxoir.simplespawn.listener;
+package me.zxoir.simplespawn.listeners;
 
 import me.zxoir.simplespawn.SimpleSpawn;
 import me.zxoir.simplespawn.utilities.TeleportationTimer;

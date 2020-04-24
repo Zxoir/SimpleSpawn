@@ -7,7 +7,8 @@ package me.zxoir.simplespawn;
 
 import me.zxoir.simplespawn.commands.SetSpawn;
 import me.zxoir.simplespawn.commands.Spawn;
-import me.zxoir.simplespawn.listener.MoveListener;
+import me.zxoir.simplespawn.listeners.MoveListener;
+import me.zxoir.simplespawn.listeners.TeleportListener;
 import me.zxoir.simplespawn.utilities.DataFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -23,6 +24,7 @@ public class SimpleSpawn extends JavaPlugin {
 
         /* Register Listener */
         getServer().getPluginManager().registerEvents(new MoveListener(this), this);
+        getServer().getPluginManager().registerEvents(new TeleportListener(this), this);
 
         /* Register Command */
         getCommand("Spawn").setExecutor(new Spawn(this));

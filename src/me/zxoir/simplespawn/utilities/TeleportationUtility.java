@@ -17,7 +17,7 @@ public class TeleportationUtility {
         this.plugin = plugin;
         this.dataFile = plugin.getDataFile();
 
-        if (this.plugin.getConfig().getInt("Time") != 0) {
+        if (this.plugin.getConfig().getInt("Time") != 0 || player.hasPermission("simplespawn.admin")) {
             /* If timer is enabled */
             new TeleportationTimer(this.plugin, player).runTaskTimer(this.plugin, 0L, 20L);
 

@@ -17,3 +17,9 @@ Teleporting Sound: "BLOCK_NOTE_BLOCK_PLING"
 
 # Action bar sent every second while a player is teleporting
 Actionbar Message: "&9Spawn &8> &7Teleporting in <time> seconds"
+
+# When a player joins it will be teleported to spawn
+Teleport on spawn: true
+
+# When a player dies it will be teleported to spawn
+Teleport on death: true
